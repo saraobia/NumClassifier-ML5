@@ -7,8 +7,9 @@ To improve the model's confidence my advice is to increase the number of images 
 
 What was used in this project --> 
 
-ML5.js
-P5.js
-HTML
-JavaScript
-CSS
+• Processing
+• ML5.js
+• P5.js
+• HTML
+• JavaScript
+• CSS
