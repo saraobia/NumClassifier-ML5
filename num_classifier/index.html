@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.6.0/dist/ml5.min.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta charset="utf-8" />
+  <title>NumbClassifier</title>
+</head>
+
+<body>
+  <!--  <script type="text/javascript" src="lib/nn.js"></script> -->
+  <!--  <script type="text/javascript" src="lib/matrix.js"></script> -->
+
+  <div class="container">
+   <h1 class="title"> Number Classifier</h1>
+   <h2 class="subtitle"> Draw a number on the canvas and the M.L. Algorithm will try to identify it.  </h2>
+  </div>
+  
+  <div id="p5Canvas"></div>
+
+
+  <h3 class="sub">You can draw a number between 1 and 9. </h3>
+
+  <h5 id="result"></h5>
+
+  <div>
+   <!-- <button id="deleteBtn">Github</button> -->
+   <button id="deleteBtn">Clear Drawing</button>
+  </div>
+ 
+  <h5 id="result"></h5>
+
+  <script type="text/javascript" src="sketch.js"></script>
+ 
+</body>
+
+</html>
